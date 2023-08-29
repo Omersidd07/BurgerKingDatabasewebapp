@@ -1,0 +1,225 @@
+/* Set the font family to 'Whopper' */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+body {
+    font-family: 'Whopper', sans-serif;
+}
+
+/* Set the background color and text color */
+body {
+    background-color: #eed2ba;
+    color: #363636;
+}
+
+/* Style the buttons */
+
+.delete-btn {
+    background-color: rgb(205, 20, 20);
+    color: white;
+}
+
+button {
+    background-color: #ffdd00;
+    border: none;
+    border-radius: 30px;
+    color: #363636;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e5c100;
+}
+
+/* Style the headings */
+h1,
+h2,
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 72px;
+    letter-spacing: -3px;
+    margin-bottom: 40px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="number"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #d8d8d8 inset;
+    color: #363636;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffdd00 inset;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid #d8d8d8;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 700;
+}
+
+/* Style the registration and login forms */
+.Registration,
+.Login {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #d8d8d8 inset;
+    margin-bottom: 24px;
+    padding: 48px;
+}
+
+.Registration label,
+.Login label {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* Style the Restrictions section */
+
+.Restrictions {
+    margin-bottom: 24px;
+}
+
+.Restrictions p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.Restrictions input[type="number"] {
+    display: inline-block;
+    margin-right: 16px;
+    width: 200px;
+}
+
+.Restrictions button {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+/* Center the items in the current meal plan */
+.MealPlans div {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+
+.table-background {
+    background-color: #F8F8F8;
+}
+
+/* Apply the new class to the menu and meal plan tables */
+.MealPlans table,
+.Search table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 8px #888888;
+}
+
+.MealPlans table {
+    background-color: #F8F8F8;
+}
+
+.Search table {
+    background-color: #F8F8F8;
+}
+
+.MealPlans th,
+.Search th {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.MealPlans td,
+.Search td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.MealPlans td:last-child,
+.Search td:last-child {
+    text-align: center;
+}
+
+
+.MealPlans button.delete-btn {
+    background-color: rgb(205, 20, 20);
+    color: white;
+}
+
+.MealPlans button.delete-btn:hover{
+background-color: rgb(154, 13, 13);
+
+}
+
+.MealPlans button,
+.Search button {
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.MealPlans button:hover,
+.Search button:hover {
+    background-color: #3e8e41;
+}
